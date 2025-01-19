@@ -1,0 +1,37 @@
+body{
+    margin: 50px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(43, 4, 4); 
+}
+.card-container{
+    display: flex;
+    gap: 5px;
+}
+.card{
+    width: 90px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease,
+    width 0.3s ease;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card.expanded{
+    width: 300px;
+    transition: transform 0.3s ease,
+    width 0.3s ease;
+}
+.style1{
+ position: relative;
+    font-size: 20px;
+  color: bisque;
+   top:400px;
+}
